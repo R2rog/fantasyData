@@ -43,4 +43,4 @@ df = df[[
     'Int','Fumbles','FumblesLost'
 ]]
 
-df.to_csv('localData/2022_week14.csv', index=False)
+df.to_csv('localData/2022_week17.csv', index=False)
