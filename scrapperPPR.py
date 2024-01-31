@@ -46,6 +46,6 @@ df = df[[
     'Int','Fumbles','FumblesLost'
 ]]
 
-df.to_csv('localData/2022_week5.csv', index=False)
+df.to_csv('localData/2023/2023_week1.csv', index=False)
 '''
 

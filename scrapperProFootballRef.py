@@ -4,7 +4,7 @@ import pandas as pd
 
 pd.set_option('display.max_columns', None)
 
-URL = 'https://www.pro-football-reference.com/years/2022/fantasy.htm'
+URL = 'https://www.pro-football-reference.com/years/2023/fantasy.htm'
 
 res = requests.get(URL)
 soup = BS(res.content, 'html.parser')
@@ -43,4 +43,4 @@ df = df[[
     'Int','Fumbles','FumblesLost'
 ]]
 
-df.to_csv('localData/2022_week18.csv', index=False)
+df.to_csv('localData/2023/2023_week1.csv', index=False)
